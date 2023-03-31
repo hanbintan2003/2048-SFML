@@ -19,7 +19,7 @@ void Tile::draw(sf::RenderWindow& window, const sf::Font& font, int x, int y, in
     if (isEmpty()) return;
 
     sf::RectangleShape shape(sf::Vector2f(size - 4, size - 4));
-    shape.setFillColor(sf::Color(255, 255, 255));
+    shape.setFillColor(sf::Color(255,255,200));
     shape.setPosition(x + 2, y + 2);
     window.draw(shape);
 
@@ -33,4 +33,5 @@ void Tile::draw(sf::RenderWindow& window, const sf::Font& font, int x, int y, in
     text.setPosition(x + (size - text.getGlobalBounds().width) / 2, y + (size - text.getGlobalBounds().height) / 2);
     window.draw(text);
 }
+
 
