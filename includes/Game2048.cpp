@@ -64,7 +64,7 @@ void Game2048::rotateGrid() {
             temp[i][j] = grid[gridSize - j - 1][i];
         }
     }
-    std::memcpy(grid, temp, sizeof(grid));
+    memcpy(grid, temp, sizeof(grid));
 }
 
 void Game2048::moveRow(int row) {
