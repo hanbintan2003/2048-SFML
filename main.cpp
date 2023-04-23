@@ -11,8 +11,6 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(660, 660), "2048 Game", sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(60);
 
-
-
     while (window.isOpen()) {
         sf::Event event;
         while (window        .pollEvent(event)) {
