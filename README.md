@@ -12,7 +12,7 @@ For this project, we will be creating a 2048 game using the SFML library in C++.
 ## Demo
 * Begin
 <br><br>
-  ![gamePlay.png](./image/begin.png)
+  ![gamePlay.png](./image/begin.PNG)
 
 * Game Play
   <br><br>
